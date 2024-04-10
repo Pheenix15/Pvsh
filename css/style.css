@@ -43,6 +43,7 @@ body{
     background-color: rgba(233, 237, 211, 1);
     transition: background-color 0.5s;
     margin: 0;
+    position: relative;
 }
 .hero-container{
     display: flex;
@@ -53,8 +54,9 @@ body{
     width: 48%;
 }
 .hero-h1{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 3em;
+    font-family: "Montserrat", sans-serif;
     margin: 0 0 10px 0;
 }
 .hero-h1-grdient{
@@ -69,7 +71,7 @@ body{
     /**width: 600px;**/
     height: auto;
     position: absolute;
-    bottom: 45px;
+    bottom: 0px;
     right: 0;
 }
 
@@ -401,7 +403,8 @@ body{
 }
 .how-box-top{
     font-size: 2em;
-    font-weight: 600;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
 }
 .how-box-yellow{
     background-color: rgba(255, 230, 141, 1);
@@ -489,6 +492,7 @@ body{
 }
 .question-text h6{
     font-size: 1.5em;
+    font-family: "Montserrat", sans-serif;
     margin-bottom: 0;
 }
 .question-faq{
@@ -585,7 +589,7 @@ body{
 ***********RESPONSIVE CSS*******
 ***********************************************/
 /*TABLET VIWE 768PX*/
-@media (max-width: 768px){
+@media only screen and (max-width: 768px){
     /*HERO SECTION*/
     .hero-container{
         flex-direction: column;
@@ -598,12 +602,12 @@ body{
         width: 90%;
     }
     .hero-h1{
-        font-size: 1.7em;
+        font-size: 3em;
         text-align: center;
     }
 /**HOW SECTION**/
     .top{
-        flex-direction: column-reverse;
+        flex-direction: row;
         padding: 5em 2em 0 2em;
     }
     .top-text{
@@ -612,9 +616,11 @@ body{
     }
     .top-text h4{
         font-size: 1.7em;
+        margin-bottom: 10px;
+        margin-top: 0;
     }
     .star img{
-        width: 6em;
+        width: 90%;
         height: auto;
     }
     .how-box-container {
@@ -641,7 +647,7 @@ body{
     }
 }
 
-@media (max-width: 620px){
+@media only screen and (max-width: 620px){
 
     .harness-container {
         margin: 0;
@@ -672,7 +678,7 @@ body{
 }
 
 
-@media (max-width: 600px){
+@media only screen and (max-width: 600px){
     /*DROPING PILL*/
     .accountability{
         position: relative;
@@ -758,33 +764,118 @@ body{
 **/
 }
 
-@media (max-width: 430px){
+@media only screen and (max-width: 430px){
 /**HERO SECTION**/
     .hero{
-        height: 80vh;
+        height: 74vh;
+        position: relative;
     }
     .hero-container {
         display: flex;
-        flex-direction: row;
-        padding: 5em 2em 1em 2em;
+        flex-direction: column;
+        padding: 2em 3em 1em 2em;
     }
     .hero-text{
-        width: 100%;
+        width: auto;
     }
     .hero-h1 {
-        font-size: 1.7em;
+        font-size: 2em;
         text-align: center;
     }
     .pill-container .pills img {
+        width: 50%;
+        height: auto;
+    }
+    .pill-container .accountability img {
+        width: 80%;
+        height: auto;
+    }
+    .pill-container .team-work img {
+        width: 80%;
+        height: auto;
+    }
+    .pill-container .Smash img {
+        width: 80%;
+        height: auto;
+    }
+    .pill-container .win img {
+        width: 45%;
+        height: auto;
+    }
+    .pill-container .bet img {
         width: 45%;
         height: auto;
     }
     .droping-pill{
         /**width: max-content;**/
         height: max-content;
-        bottom: 75px;
-        left: -71px;
-        display: none;
+        bottom: 10px;
+        left: -7px;
+        position: absolute;
+        /**display: none;**/
+    }
+
+    .accountability {
+        position: relative;
+        right: 15px;
+        bottom: -5px;
+    }
+    .create {
+        position: relative;
+        bottom: -10px;
+        left: -30px;
+    }
+    .win {
+        position: absolute;
+        bottom: 22px;
+        right: -5px;
+    }
+    .goals {
+        position: absolute;
+        right: -5px;
+        bottom: 53px;
+    }
+    .motivation {
+        position: absolute;
+        bottom: 46px;
+        left: -47px;
+    }
+    /*SECOND LEVEL PILL*/
+    .Smash {
+        position: relative;
+        top: 25px;
+        left: -12px;
+    }
+    .dream {
+        position: absolute;
+        bottom: 41px;
+        left: -15px;
+    }
+    .discipline {
+        position: absolute;
+        top: -28px;
+        left: -25px;
+    }
+    /*THIRD LEVEL PILL*/
+    .team-work {
+        position: relative;
+        right: -23px;
+        bottom: -6px;
+    }
+    .push {
+        position: relative;
+        top: 52px;
+        left: 10px;
+    }
+    .grow {
+        position: relative;
+        bottom: -11px;
+        right: -60px;
+    }
+    .bet {
+        position: relative;
+        top: 80px;
+        right: -65px;
     }
 
 
@@ -867,7 +958,7 @@ body{
 
 @media (max-width: 330px){
     .droping-pill {
-        left: -110px;
+        left: -5px;
     }
 }
 @media (max-width: 570px){
@@ -876,8 +967,8 @@ body{
         padding: 2vh 2vw;
     }
     .social-icon{
-        width: 1em;
-        height: 1em;
+        width: 2em;
+        height: 2em;
     }
     .pvsh-social{
         font-size: 0.5em;
