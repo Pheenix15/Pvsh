@@ -961,6 +961,195 @@ body{
         left: -5px;
     }
 }
+
+@media only screen and (max-width: 412px){
+    /*DROPING PILL*/
+    .accountability{
+        position: relative;
+        right: -25px;
+        bottom: -8px;
+    }
+
+    .pill-container .create img {
+        width: 55%;
+        height: auto;
+    }
+    .create{
+        position: relative;
+        bottom: -13px;
+        left: 9px;
+    }
+
+    .pill-container .win img {
+        width: 55%;
+        height: auto;
+    }
+    .win{
+        position: absolute;
+        bottom: 18px;
+        right: -30px;
+    }
+
+    .goals{
+        position: absolute;
+        right: -31px;
+        bottom: 55px;
+    }
+
+    .motivation{
+        position: absolute;
+        bottom: 41px;
+        left: -13px;
+    }
+
+    /*SECOND LEVEL PILL*/
+    .Smash{
+        position: relative;
+        top: 31px;
+        left: 21px;
+    }
+
+    .pill-container .dream img {
+        width: 53%;
+        height: auto;
+    }
+    .dream{
+        position: absolute;
+        bottom: 44px;
+        left: 10px;
+    }
+
+
+    .pill-container .discipline img {
+        width: 62%;
+        height: auto;
+    }
+    .discipline{
+        position: absolute;
+        top: -29px;
+        left: -4px;
+    }
+
+    /*THRID LEVEL PILL*/
+    .push{
+        position: relative;
+        top: 52px;
+        left: 50px;
+    }
+
+    .bet{
+        position: relative;
+        top: 85px;
+        right: -107px;
+    }
+
+    .grow{
+        position: relative;
+        bottom: -11px;
+        right: -98px;
+    }
+
+    .team-work{
+        position: relative;
+        right: -55px;
+        bottom: -6px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    /*DROPING PILL*/
+    .accountability{
+        position: relative;
+        right: -25px;
+        bottom: -8px;
+    }
+
+    .pill-container .create img {
+        width: 45%;
+        height: auto;
+    }
+    .create{
+        position: relative;
+        bottom: -13px;
+        left: 9px;
+    }
+
+    .pill-container .win img {
+        width: 45%;
+        height: auto;
+    }
+    .win{
+        position: absolute;
+        bottom: 18px;
+        right: -30px;
+    }
+
+    .goals{
+        position: absolute;
+        right: -31px;
+        bottom: 55px;
+    }
+
+    .motivation{
+        position: absolute;
+        bottom: 41px;
+        left: -13px;
+    }
+
+    /*SECOND LEVEL PILL*/
+    .Smash{
+        position: relative;
+        top: 31px;
+        left: 21px;
+    }
+
+    .pill-container .dream img {
+        width: 53%;
+        height: auto;
+    }
+    .dream{
+        position: absolute;
+        bottom: 44px;
+        left: 10px;
+    }
+
+
+    .pill-container .discipline img {
+        width: 62%;
+        height: auto;
+    }
+    .discipline{
+        position: absolute;
+        top: -29px;
+        left: -4px;
+    }
+
+    /*THRID LEVEL PILL*/
+    .push{
+        position: relative;
+        top: 52px;
+        left: 50px;
+    }
+
+    .bet{
+        position: relative;
+        top: 85px;
+        right: -107px;
+    }
+
+    .grow{
+        position: relative;
+        bottom: -11px;
+        right: -98px;
+    }
+
+    .team-work{
+        position: relative;
+        right: -55px;
+        bottom: -6px;
+    }
+}
+
 @media (max-width: 570px){
     /**FOOTER SECTION**/
     .pvsh-social{
@@ -972,6 +1161,186 @@ body{
     }
     .pvsh-social{
         font-size: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    /*DROPING PILL*/
+    .accountability{
+        position: relative;
+        right: -25px;
+        bottom: -8px;
+    }
+
+    .pill-container .create img {
+        width: 45%;
+        height: auto;
+    }
+    .create{
+        position: relative;
+        bottom: -13px;
+        left: 12px;
+    }
+
+    .pill-container .win img {
+        width: 45%;
+        height: auto;
+    }
+    .win{
+        position: absolute;
+        bottom: 18px;
+        right: -40px;
+    }
+
+
+    .pill-container .goals img {
+        width: 45%;
+        height: auto;
+    }
+    .goals{
+        position: absolute;
+        right: -40px;
+        bottom: 48px;
+    }
+
+    .motivation{
+        position: absolute;
+        bottom: 34px;
+        left: -17px;
+    }
+
+    /*SECOND LEVEL PILL*/
+    .Smash{
+        position: relative;
+        top: 31px;
+        left: 21px;
+    }
+
+    .pill-container .dream img {
+        width: 53%;
+        height: auto;
+    }
+    .dream{
+        position: absolute;
+        bottom: 35px;
+        left: 10px;
+    }
+
+
+    .pill-container .discipline img {
+        width: 62%;
+        height: auto;
+    }
+    .discipline{
+        position: absolute;
+        top: -25px;
+        left: -4px;
+    }
+
+    /*THRID LEVEL PILL*/
+    .push{
+        position: relative;
+        top: 55px;
+        left: 34px;
+    }
+
+    .bet{
+        position: relative;
+        top: 80px;
+        right: -90px;
+    }
+
+    .grow{
+        position: relative;
+        bottom: -11px;
+        right: -85px;
+    }
+
+    .team-work{
+        position: relative;
+        right: -55px;
+        bottom: -6px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    /*DROPING PILL*/
+    .accountability{
+        position: relative;
+        right: 9px;
+        bottom: -5px;
+    }
+
+    .create{
+        position: relative;
+        bottom: -10px;
+        left: -30px;
+    }
+
+    .win{
+        position: absolute;
+        bottom: 18px;
+        right: -18px;
+    }
+
+    .goals{
+        position: absolute;
+        right: -26px;
+        bottom: 49px;
+    }
+
+    .motivation{
+        position: absolute;
+        bottom: 41px;
+        left: -47px;
+    }
+
+    /*SECOND LEVEL PILL*/
+    .Smash{
+        position: relative;
+        top: 27px;
+        left: 0px;
+    }
+
+    .pill-container .dream img {
+        width: 53%;
+        height: auto;
+    }
+    .dream{
+        position: absolute;
+        bottom: 31px;
+        left: -3px;
+    }
+
+    .discipline{
+        position: absolute;
+        top: -28px;
+        left: -12px;
+    }
+
+    /*THRID LEVEL PILL*/
+    .push{
+        position: relative;
+        top: 48px;
+        left: 25px;
+    }
+
+    .bet{
+        position: relative;
+        top: 73px;
+        right: -78px;
+    }
+
+    .grow{
+        position: relative;
+        bottom: -11px;
+        right: -70px;
+    }
+
+    .team-work{
+        position: relative;
+        right: -40px;
+        bottom: -6px;
     }
 }
 
@@ -1052,6 +1421,106 @@ body{
     .team-work{
         position: relative;
         right: -40px;
+        bottom: -6px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    /*DROPING PILL*/
+    .accountability{
+        position: relative;
+        right: -4px;
+        bottom: -5px;
+    }
+
+    .create{
+        position: relative;
+        bottom: -10px;
+        left: -15px;
+    }
+
+    .pill-container .win img {
+        width: 40%;
+        height: auto;
+    }
+    .win{
+        position: absolute;
+        bottom: 14px;
+        right: -40px;
+    }
+
+    .pill-container .goals img {
+        width: 40%;
+        height: auto;
+    }
+    .goals{
+        position: absolute;
+        right: -38px;
+        bottom: 39px;
+    }
+
+    .pill-container .motivation img {
+        width: 45%;
+        height: auto;
+    }
+    .motivation{
+        position: absolute;
+        bottom: 26px;
+        left: -43px;
+    }
+
+    /*SECOND LEVEL PILL*/
+    .pill-container .Smash img {
+        width: 90%;
+        height: auto;
+    }
+    .Smash{
+        position: relative;
+        top: 27px;
+        left: 16px;
+    }
+
+    .pill-container .dream img {
+        width: 58%;
+        height: auto;
+    }
+    .dream{
+        position: absolute;
+        bottom: 30px;
+        left: 7px;
+    }
+    .pill-container .discipline img {
+        width: 65%;
+        height: auto;
+    }
+    .discipline{
+        position: absolute;
+        top: -22px;
+        left: -8px;
+    }
+
+    /*THRID LEVEL PILL*/
+    .push{
+        position: relative;
+        top: 42px;
+        left: 43px;
+    }
+
+    .bet{
+        position: relative;
+        top: 66px;
+        right: -83px;
+    }
+
+    .grow{
+        position: relative;
+        bottom: -11px;
+        right: -82px;
+    }
+
+    .team-work{
+        position: relative;
+        right: -56px;
         bottom: -6px;
     }
 }
@@ -1156,102 +1625,3 @@ body{
     }
 }
 
-@media only screen and (max-width: 280px){
-    /*DROPING PILL*/
-    .accountability{
-        position: relative;
-        right: -4px;
-        bottom: -5px;
-    }
-
-    .create{
-        position: relative;
-        bottom: -10px;
-        left: -15px;
-    }
-
-    .pill-container .win img {
-        width: 40%;
-        height: auto;
-    }
-    .win{
-        position: absolute;
-        bottom: 14px;
-        right: -40px;
-    }
-
-    .pill-container .goals img {
-        width: 40%;
-        height: auto;
-    }
-    .goals{
-        position: absolute;
-        right: -38px;
-        bottom: 39px;
-    }
-
-    .pill-container .motivation img {
-        width: 45%;
-        height: auto;
-    }
-    .motivation{
-        position: absolute;
-        bottom: 26px;
-        left: -43px;
-    }
-
-    /*SECOND LEVEL PILL*/
-    .pill-container .Smash img {
-        width: 90%;
-        height: auto;
-    }
-    .Smash{
-        position: relative;
-        top: 27px;
-        left: 16px;
-    }
-
-    .pill-container .dream img {
-        width: 58%;
-        height: auto;
-    }
-    .dream{
-        position: absolute;
-        bottom: 30px;
-        left: 7px;
-    }
-    .pill-container .discipline img {
-        width: 65%;
-        height: auto;
-    }
-    .discipline{
-        position: absolute;
-        top: -22px;
-        left: -8px;
-    }
-
-    /*THRID LEVEL PILL*/
-    .push{
-        position: relative;
-        top: 42px;
-        left: 43px;
-    }
-
-    .bet{
-        position: relative;
-        top: 66px;
-        right: -83px;
-    }
-
-    .grow{
-        position: relative;
-        bottom: -11px;
-        right: -82px;
-    }
-
-    .team-work{
-        position: relative;
-        right: -56px;
-        bottom: -6px;
-    }
-}
