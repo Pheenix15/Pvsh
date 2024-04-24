@@ -16,18 +16,5 @@ pills.forEach((pill) => {
 
 function dropdown1() {
     document.querySelector(".tab1").classList.toggle("open");
-    document.querySelector(".tab2").classList.remove("open");
-    document.querySelector(".tab3").classList.remove("open");
 }
 
-function dropdown2() {
-    document.querySelector(".tab2").classList.toggle("open");
-    document.querySelector(".tab1").classList.remove("open");
-    document.querySelector(".tab3").classList.remove("open");
-}
-
-function dropdown3() {
-    document.querySelector(".tab3").classList.toggle("open");
-    document.querySelector(".tab1").classList.remove("open");
-    document.querySelector(".tab2").classList.remove("open");
-}
